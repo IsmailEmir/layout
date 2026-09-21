@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,8 +20,8 @@
                       </svg>
                 </button>
 
-                <a href="logo">
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a class="logo" href="">
+                    <svg width="28" height="28" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.03625 12.1875L1.8125 15L7.03625 17.8125M7.03625 12.1875L14 15.9375L20.9637 12.1875M7.03625 12.1875L1.8125 9.375L14 2.8125L26.1875 9.375L20.9637 12.1875M7.03625 17.8125L1.8125 20.625L14 27.1875L26.1875 20.625L20.9637 17.8125M7.03625 17.8125L14 21.5625L20.9637 17.8125M20.9637 12.1875L26.1875 15L20.9637 17.8125" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </a>
@@ -49,5 +49,95 @@
             </div>
         </div>
     </header>
+
+    <main>
+        <div class="main-container">
+            <div class="main-content">
+                <article>
+                    <div class="article-header">
+                        <p class="article-theme font-display semibold">Introduction</p>
+                        <h1 class="font-display semibold">Getting started</h1>
+                        <div class="author-info semibold">
+                            <div class="author-logo"><img src="src/joshua.jpg" alt=""></div>
+                            <div class="author-desc">
+                                <div class="author-name font-display"">Joshua Birdman</div>
+                                <div class="author-date"">Created: May 06, 2023 - Updated: Apr 26, 2023</div>
+                            </div>
+                            <div class="author-follow-btn font-display"><a>Follow</a></div>
+                        </div>
+                        <p class="article-desc">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur culpa qui officia deserunt.
+                        </p>
+                    </div>
+
+                    <div class="article-main">
+                        <h2 class="font-display semibold">Quick start</h2>
+                        <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.</p>
+
+                        <h3 class="font-display semibold">Installing dependencies</h3>
+                        <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
+                        <p>Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
+
+                        <h3 class="font-display semibold">Configuring the library</h3>
+                        <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
+
+                        <pre><code>plugins: [
+  require('@tailwindcss/forms'),
+  require('@tailwindcss/typography'),
+]</code></pre>
+
+                        <p>Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
+
+                        <div class="colorful-tab yellow-tab">
+                            <h3 class="colorful-title font-display">Consequatur et cum atque mollitia</h3>
+                            <div class="colorful-text-container">
+                                <p class="colorful-text yellow-tab">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+                            </div>
+                        </div>
+
+                        <div class="colorful-tab blue-tab">
+                            <h3 class="colorful-title font-display">Consequatur et cum atque mollitia</h3>
+                            <div class="colorful-text-container">
+                                <p class="colorful-text blue-tab">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+                            </div>
+                        </div>
+
+                        <div class="colorful-tab green-tab">
+                            <h3 class="colorful-title font-display">Consequatur et cum atque mollitia</h3>
+                            <div class="colorful-text-container">
+                                <p class="colorful-text green-tab">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+                            </div>
+                        </div>
+
+                        <div class="colorful-tab red-tab">
+                            <h3 class="colorful-title font-display">Consequatur et cum atque mollitia</h3>
+                            <div class="colorful-text-container">
+                                <p class="colorful-text red-tab">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <h2 class="font-display semibold">Basic usage</h2>
+                        <p>Praesentium laudantium magni. Consequatur reiciendis aliquid nihil iusto ut in et. Quisquam ut et aliquid occaecati. Culpa veniam aut et voluptates amet perspiciatis. Qui exercitationem in qui. Vel qui dignissimos sit quae distinctio.</p>
+                        <h3 class="font-display semibold">Your first cache</h3>
+                        <p>Minima vel non iste debitis. Consequatur repudiandae et quod accusamus sit molestias consequatur aperiam. Et sequi ipsa eum voluptatibus ipsam. Et quisquam ut.</p>
+                        <p>Qui quae esse aspernatur fugit possimus. Quam sed molestiae temporibus. Eum perferendis dignissimos provident ea et. Et repudiandae quasi accusamus consequatur dolore nobis. Quia reiciendis necessitatibus a blanditiis iste quia. Ut quis et amet praesentium sapiente.</p>
+
+                        <h4>Change your password</h4>
+                        <ol class="main-article-list">
+                            <li>Click your team name to open the Team Menu.</li>
+                            <li>Select Profile & account. This will open your profile on the right side of your screen.</li>
+                            <li>Under your name, click Account Settings. This will open your Account settings.</li>
+                            <li>By Password, click expand.</li>
+                            <li>Enter your Current Password, and then a New Password.</li>
+                            <li>Click Save Password.</li>
+                        </ol>
+
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
