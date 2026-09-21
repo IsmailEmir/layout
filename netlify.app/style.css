@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    background: #fff;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    max-width: 86rem;
+}
+
+.header-left-block {
+    display: flex;
+    align-items: center;
+}
+
+.burger-btn {
+    border: 0;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger-btn-left {
+    margin-right: 0.75rem;
+}
+
+.burger-btn svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.burger-btn svg path {
+    stroke: #64748b;
+}
+
+.header-right-block {
+    display: flex;
+    margin-left: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.search {
+    width: 100%;
+}
+
+.search-content {
+    position: relative;
+}
+
+.zoom-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.zoom-logo svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: rgb(148, 163, 184);
+}
+
+.input-container input {
+    padding: 0.625rem 0.75rem 0.625rem 2.5rem;
+    background-color: #fff;
+    border: 1px solid rgb(203 213 225);
+    border-radius: 0.375rem;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.input-container input::placeholder {
+    color: rgb(148, 163, 184);
+    font-size: 1rem;
+}
+
+.burger-btn-right {
+    margin-left: 0.75rem;
+}
