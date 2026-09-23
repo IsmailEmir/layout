@@ -468,3 +468,190 @@ hr {
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
+
+.feedback-btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.feedback-btn-container button {
+    display: flex;
+    color: rgb(14 165 233);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: .375rem .625rem;
+    border-radius: .375rem;
+    align-items: center;
+    background-color: rgb(240 249 255);
+    border: 0;
+}
+
+.feedback-btn-container button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.feedback-btn-container button svg path {
+    stroke: rgb(14 165 233);
+}
+
+.feedback-btn-container button span {
+    margin-left: 0.5rem;
+}
+
+.feedback-text {
+    text-align: center;
+    margin: 1.5rem 0 0;
+    color: rgb(51 65 85);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.feedback-text a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.feedback-text a:hover {
+    color: rgb(14 165 233);
+}
+
+/* FOOTER */
+.footer-container {
+    padding: 4rem 1.5rem 2rem;
+    max-width: 86rem;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.list-container div h3{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.list-container .list{
+    margin-top: 1.25rem;
+    list-style: none;
+    gap: 1rem;
+}
+
+.list li {
+    height: 24px;
+}
+
+.list-container .list li + li{
+    margin-top: 1rem;
+}
+
+.list-container div + div{
+    margin-top: 2.5rem;
+}
+
+.list-container .list li a {
+    color: rgb(100 116 139);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+}
+
+.list-container .list li a:hover {
+    color: rgb(15 23 42);
+}
+
+/* NEWSLETTER */
+.newsletter {
+    margin-top: 2.5rem;
+}
+
+.newsletter h3 {
+    color: rgb(15 23 42);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.newsletter p {
+    margin-top: 0.5rem;
+    color: rgb(100 116 139);
+    line-height: 1.625;
+    font-size: .875rem;
+}
+
+.newsletter form {
+    margin-top: 1.5rem;
+}
+
+#email-input {
+    border: 0;
+    border-radius: .375rem;
+    box-shadow: inset 0 0 0 1px rgb(203 213 225);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: .375rem .75rem;
+    width: 100%;
+    outline: none;
+}
+
+#email-input:focus {
+    outline: 2px solid rgb(203 213 225);
+    outline-offset: -2px;
+}
+
+#email-input::placeholder {
+    color: #94A3B8;
+}
+
+.form-submit {
+    margin-top: 1rem;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    background-color: rgb(14 165 233);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: .5rem .75rem;
+    border-radius: .375rem;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.form-submit:hover {
+    background-color: rgb(2 132 199);
+}
+
+/* FOOTER INFO */
+.footer-info {
+    padding-top: 2rem;
+    border-top: 1px solid rgb(226 232 240);
+    margin-top: 4rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: rgb(148 163 184);
+}
+
+.footer-links a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.company-meta {
+    color: rgb(100 116 139);
+    line-height: 1.25rem;
+    font-size: .75rem;
+    margin-top: 2rem;
+}
